@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04812AC520A2E04C00A1C2BA /* gg.m in Sources */ = {isa = PBXBuildFile; fileRef = 04812AC420A2E04C00A1C2BA /* gg.m */; };
 		04EA6B962086E85F007AB98A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA6B952086E85F007AB98A /* AppDelegate.m */; };
 		04EA6B992086E85F007AB98A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA6B982086E85F007AB98A /* ViewController.m */; };
 		04EA6B9C2086E860007AB98A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EA6B9A2086E860007AB98A /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04812AC320A2E04C00A1C2BA /* gg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gg.h; sourceTree = "<group>"; };
+		04812AC420A2E04C00A1C2BA /* gg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gg.m; sourceTree = "<group>"; };
 		04EA6B912086E85F007AB98A /* EnumTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnumTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EA6B942086E85F007AB98A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04EA6B952086E85F007AB98A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				04EA6B9F2086E874007AB98A /* LaunchScreen.storyboard */,
 				04EA6BA22086E874007AB98A /* Info.plist */,
 				04EA6BA32086E874007AB98A /* main.m */,
+				04812AC320A2E04C00A1C2BA /* gg.h */,
+				04812AC420A2E04C00A1C2BA /* gg.m */,
 			);
 			path = EnumTest;
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04EA6B992086E85F007AB98A /* ViewController.m in Sources */,
+				04812AC520A2E04C00A1C2BA /* gg.m in Sources */,
 				04EA6BA42086E874007AB98A /* main.m in Sources */,
 				04EA6B962086E85F007AB98A /* AppDelegate.m in Sources */,
 			);
